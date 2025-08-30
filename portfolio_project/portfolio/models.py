@@ -20,7 +20,7 @@ class Skill(models.Model):
 class Project(models.Model):
   
     title = models.CharField(max_length=200)
-    description = models.TextField()
+    description = models.TextField() 
     image = models.ImageField(upload_to='projects/', blank=True, null=True)
     site_url = models.URLField(blank=True, null=True)
     github_url = models.URLField(blank=True, null=True)
