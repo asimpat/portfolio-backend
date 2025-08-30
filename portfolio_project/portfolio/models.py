@@ -25,7 +25,7 @@ class Project(models.Model):
     site_url = models.URLField(blank=True, null=True)
     github_url = models.URLField(blank=True, null=True)
     technologies = models.TextField(
-        help_text="Comma-separated list of technologies")
+        help_text="Comma-separated list of technologies") 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
