@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/home/asim-patrick/Desktop/django projects/my work/portfolio-backend/env/bin/python3" "$0" "$@"
-' '''
+#!/home/axum/Documents/django-projects/portfolio-backend/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
